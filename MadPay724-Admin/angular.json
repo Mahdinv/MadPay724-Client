@@ -24,9 +24,19 @@
               "src/assets"
             ],
             "styles": [
+              "src/assets/fonts/feather/style.min.css",
+              "src/assets/fonts/simple-line-icons/style.css",
+              "src/assets/fonts/font-awesome/css/font-awesome.min.css",
+              "src/assets/vendors/css/prism.min.css",
+              "src/assets/css/app.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/vendors/js/core/jquery-3.3.1.min.js",
+              "src/assets/vendors/js/core/bootstrap.min.js",
+              "src/assets/vendors/js/jquery.matchHeight-min.js",
+              "src/assets/vendors/js/screenfull.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -119,6 +129,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "MadPay724-Admin"
+    }
+  },
+  "defaultProject": "MadPay724-Admin",
+  "cli": {
+    "analytics": "ddf784bd-9e96-4061-85a9-29df25c7e2dc"
+  }
 }
